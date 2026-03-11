@@ -84,7 +84,7 @@ let package = Package(
   products: [
     .library(
       name: "DaroPackage",
-      targets: ["DaroPackage", "Daro"]
+      targets: ["DaroPackage"]
     )
   ],
   targets: [
