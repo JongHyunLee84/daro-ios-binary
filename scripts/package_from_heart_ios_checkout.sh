@@ -6,7 +6,7 @@ SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 REPO_ROOT="$(cd "$SCRIPT_DIR/.." && pwd)"
 
 HEART_IOS_ROOT="${1:-${HEART_IOS_ROOT:-$REPO_ROOT/../heart-ios}}"
-VERSION="${DARO_VERSION:-1.1.49}"
+VERSION="${DARO_VERSION:-1.1.51}"
 DIST_DIR="$REPO_ROOT/dist"
 ARTIFACTS_DIR="$REPO_ROOT/artifacts"
 BUILD_DIR="$HEART_IOS_ROOT/build/Debug-iphoneos"

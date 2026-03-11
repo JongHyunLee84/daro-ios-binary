@@ -5,7 +5,7 @@ set -euo pipefail
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 REPO_ROOT="$(cd "$SCRIPT_DIR/.." && pwd)"
 
-VERSION="${1:-${DARO_VERSION:-1.1.49}}"
+VERSION="${1:-${DARO_VERSION:-1.1.51}}"
 OWNER="${DARO_REPO_OWNER:-JongHyunLee84}"
 REPO_NAME="${DARO_REPO_NAME:-daro-ios-binary}"
 TAG="${DARO_RELEASE_TAG:-$VERSION}"
