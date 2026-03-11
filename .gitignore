@@ -2,3 +2,5 @@ dist/
 artifacts/*.zip
 artifacts/*/
 !.gitkeep
+__pycache__/
+*.pyc
