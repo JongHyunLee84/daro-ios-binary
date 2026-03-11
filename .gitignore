@@ -4,3 +4,4 @@ artifacts/*/
 !.gitkeep
 __pycache__/
 *.pyc
+.build/
